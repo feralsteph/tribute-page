@@ -1,4 +1,10 @@
 body {
+  line-height: 2;
+  background-color: #f6e6e4;
+}
+h1,
+h2 {
+  font-family: "Dancing Script", cursive;
 }
 
 h1,
@@ -7,11 +13,34 @@ p {
   text-align: center;
 }
 
+h2 {
+  margin: 0 80px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
 img {
   width: 40%;
   display: block;
   margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: inset 10px 10px 50px #fff;
 }
+
 figcaption {
   text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+li {
+  text-align: center;
+  list-style-position: inside;
+  margin: 0 150px;
+}
+
+hr {
+  color: #926e6f;
+  width: 60%;
 }
